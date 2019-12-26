@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonWithScrollViewIssue.Android", "ButtonWithScrollViewIssue.Android\ButtonWithScrollViewIssue.Android.csproj", "{9D5D011F-561E-4D43-B2A1-8FFF3E758CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonWithScrollViewIssue", "ButtonWithScrollViewIssue\ButtonWithScrollViewIssue.csproj", "{ECD1D957-27A0-4AEE-A03F-D46D6BE100B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D5D011F-561E-4D43-B2A1-8FFF3E758CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5D011F-561E-4D43-B2A1-8FFF3E758CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5D011F-561E-4D43-B2A1-8FFF3E758CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5D011F-561E-4D43-B2A1-8FFF3E758CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD1D957-27A0-4AEE-A03F-D46D6BE100B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD1D957-27A0-4AEE-A03F-D46D6BE100B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD1D957-27A0-4AEE-A03F-D46D6BE100B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD1D957-27A0-4AEE-A03F-D46D6BE100B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ButtonWithScrollViewIssue.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="HeightRequest" Value="48" />
+            <Setter Property="CornerRadius" Value="24" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="FontFamily">
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="Android">SuisseIntl-SemiBold.otf#Suisse Int'l</On>
+                    <On Platform="iOS">SuisseIntl-SemiBold</On>
+                </OnPlatform>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <StackLayout>
+            <Button Text="00" />
+            <Button Text="01" />
+            <Button Text="02" />
+            <Button Text="03" />
+            <Button Text="04" />
+            <Button Text="05" />
+            <Button Text="06" />
+            <Button Text="07" />
+            <Button Text="08" />
+            <Button Text="09" />
+            <Button Text="10" />
+            <Button Text="11" />
+            <Button Text="12" />
+            <Button Text="13" />
+            <Button Text="14" />
+            <Button Text="15" />
+            <Button Text="16" />
+            <Button Text="17" />
+            <Button Text="18" />
+            <Button Text="19" />
+            <Button Text="20" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
