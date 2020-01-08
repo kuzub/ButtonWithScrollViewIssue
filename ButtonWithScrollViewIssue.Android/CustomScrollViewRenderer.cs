@@ -8,8 +8,8 @@ namespace ButtonWithScrollViewIssue.Droid
 {
     public class CustomScrollViewRenderer : ScrollViewRenderer
     {
-        public CustomScrollViewRenderer(Context context) : base(context)
-        {
-        }
+        //public CustomScrollViewRenderer(Context context) : base(context)
+        //{
+        //}
     }
 }
